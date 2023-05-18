@@ -21,6 +21,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+      - name: Update Node.js version to 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
       - name: Install dependencies to run python commands
         run: pip install requests
       - name: Generate XKCD Comic URL and store it in a variable
