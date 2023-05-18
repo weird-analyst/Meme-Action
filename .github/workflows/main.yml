@@ -1,0 +1,53 @@
+#Name of the workflow
+name: "Random xkcd meme generator"
+
+#The workflow is triggered whenever someone forks the repo
+on:
+  fork: {}
+
+#What actions occur in the workflow
+jobs:
+  #Just doing one job of creating new meme file
+  new_file_with_meme:
+    runs-on: ubuntu-latest
+    steps: 
+      #Using github checkout action to access files of the forked repo
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      #Action to Install Python, then to find a random XKCD meme between 1-2777 (dont ask how i got that number)
+      #Then take the address of the meme and store it in a variable
+      - name: Install Python To Access Random Comics
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies to run python commands
+        run: pip install requests
+      - name: Generate XKCD Comic URL and store it in a variable
+        id: generate_comic_url
+        run: |
+          import requests
+          import random
+          response = requests.get(f'https://xkcd.com/{random.randint(1, 2777)}/info.0.json')
+          comic_url = response.json()['url']
+          
+      #Action to create new file in forked repo and put the required contents in it
+      - name: Create new file in forked repo
+        id: create_file
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const filePath = 'MemeOfTheFork.txt';
+            const fileContent = `Click here for a random XKCD meme: [${process.env.comic_url}](${process.env.comic_url})`;
+            fs.writeFileSync(filePath, fileContent);
+            
+      #Commit and push changes into the forked repo
+      - name: Commit and push changes
+        run: |
+           git config --local user.email "action@github.com"
+           git config --local user.name "GitHub Action"
+           git add .
+           git commit -m "Added new file with XKCD Meme"
+                git push origin HEAD
