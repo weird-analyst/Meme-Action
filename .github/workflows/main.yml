@@ -30,6 +30,7 @@ jobs:
           import random
           response = requests.get(f'https://xkcd.com/{random.randint(1, 2777)}/info.0.json')
           comic_url = response.json()['url']
+          echo "::set-output name=comic_url::$comic_url"
           
       #Action to create new file in forked repo and put the required contents in it
       - name: Create new file in forked repo
