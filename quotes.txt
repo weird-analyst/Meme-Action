@@ -1,199 +1,199 @@
-@"The only way to do great work is to love what you do." - Steve Jobs
+@'The only way to do great work is to love what you do.' - Steve Jobs
 
-@"In three words, I can sum up everything I've learned about life: it goes on." - Robert Frost
+@'In three words, I can sum up everything I've learned about life: it goes on.' - Robert Frost
 
-@"The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+@'The future belongs to those who believe in the beauty of their dreams.' - Eleanor Roosevelt
 
-@"Success is not final, failure is not fatal: it is the courage to continue that counts." - Winston Churchill
+@'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill
 
-@"The best way to predict the future is to create it." - Peter Drucker
+@'The best way to predict the future is to create it.' - Peter Drucker
 
-@"The only thing we have to fear is fear itself." - Franklin D. Roosevelt
+@'The only thing we have to fear is fear itself.' - Franklin D. Roosevelt
 
-@"Life is what happens when you're busy making other plans." - John Lennon
+@'Life is what happens when you're busy making other plans.' - John Lennon
 
-@"The greatest glory in living lies not in never falling, but in rising every time we fall." - Nelson Mandela
+@'The greatest glory in living lies not in never falling, but in rising every time we fall.' - Nelson Mandela
 
-@"In the end, it's not the years in your life that count. It's the life in your years." - Abraham Lincoln
+@'In the end, it's not the years in your life that count. It's the life in your years.' - Abraham Lincoln
 
-@"The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt
+@'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt
 
-@"It does not matter how slowly you go as long as you do not stop." - Confucius
+@'It does not matter how slowly you go as long as you do not stop.' - Confucius
 
-@"The secret of getting ahead is getting started." - Mark Twain
+@'The secret of getting ahead is getting started.' - Mark Twain
 
-@"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe." - Albert Einstein
+@'Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.' - Albert Einstein
 
-@"The best revenge is massive success." - Frank Sinatra
+@'The best revenge is massive success.' - Frank Sinatra
 
-@"The greatest wealth is to live content with little." - Plato
+@'The greatest wealth is to live content with little.' - Plato
 
-@"Believe you can and you're halfway there." - Theodore Roosevelt
+@'Believe you can and you're halfway there.' - Theodore Roosevelt
 
-@"The only person you are destined to become is the person you decide to be." - Ralph Waldo Emerson
+@'The only person you are destined to become is the person you decide to be.' - Ralph Waldo Emerson
 
-@"The journey of a thousand miles begins with a single step." - Lao Tzu
+@'The journey of a thousand miles begins with a single step.' - Lao Tzu
 
-@"The harder I work, the luckier I get." - Samuel Goldwyn
+@'The harder I work, the luckier I get.' - Samuel Goldwyn
 
-@"The greatest pleasure in life is doing what people say you cannot do." - Walter Bagehot
+@'The greatest pleasure in life is doing what people say you cannot do.' - Walter Bagehot
 
-@"Don't watch the clock; do what it does. Keep going." - Sam Levenson
+@'Don't watch the clock; do what it does. Keep going.' - Sam Levenson
 
-@"I have not failed. I've just found 10,000 ways that won't work." - Thomas Edison
+@'I have not failed. I've just found 10,000 ways that won't work.' - Thomas Edison
 
-@"The best preparation for tomorrow is doing your best today." - H. Jackson Brown Jr.
+@'The best preparation for tomorrow is doing your best today.' - H. Jackson Brown Jr.
 
-@"It's not whether you get knocked down, it's whether you get up." - Vince Lombardi
+@'It's not whether you get knocked down, it's whether you get up.' - Vince Lombardi
 
-@"You miss 100% of the shots you don't take." - Wayne Gretzky
+@'You miss 100% of the shots you don't take.' - Wayne Gretzky
 
-@"The greatest glory in living lies not in never falling, but in rising every time we fall." - Ralph Waldo Emerson
+@'The greatest glory in living lies not in never falling, but in rising every time we fall.' - Ralph Waldo Emerson
 
-@"If you can dream it, you can achieve it." - Zig Ziglar
+@'If you can dream it, you can achieve it.' - Zig Ziglar
 
-@"I have a dream that one day this nation will rise up and live out the true meaning of its creed." - Martin Luther King Jr.
+@'I have a dream that one day this nation will rise up and live out the true meaning of its creed.' - Martin Luther King Jr.
 
-@"The only true wisdom is in knowing you know nothing." - Socrates
+@'The only true wisdom is in knowing you know nothing.' - Socrates
 
-@"Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful." - Albert Schweitzer
+@'Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.' - Albert Schweitzer
 
-@"Life is really simple, but we insist on making it complicated." - Confucius
+@'Life is really simple, but we insist on making it complicated.' - Confucius
 
-@"Be yourself; everyone else is already taken." - Oscar Wilde
+@'Be yourself; everyone else is already taken.' - Oscar Wilde
 
-@"The only way to have a friend is to be one." - Ralph Waldo Emerson
+@'The only way to have a friend is to be one.' - Ralph Waldo Emerson
 
-@"To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment." - Ralph Waldo Emerson
+@'To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.' - Ralph Waldo Emerson
 
-@"The only source of knowledge is experience." - Albert Einstein
+@'The only source of knowledge is experience.' - Albert Einstein
 
-@"The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it." - Michelangelo
+@'The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.' - Michelangelo
 
-@"We can complain because rose bushes have thorns, or rejoice because thorns have roses." - Alphonse Karr
+@'We can complain because rose bushes have thorns, or rejoice because thorns have roses.' - Alphonse Karr
 
-@"The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart." - Helen Keller
+@'The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.' - Helen Keller
 
-@"I am not a product of my circumstances. I am a product of my decisions." - Stephen Covey
+@'I am not a product of my circumstances. I am a product of my decisions.' - Stephen Covey
 
-@"I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel." - Maya Angelou
+@'I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.' - Maya Angelou
 
-@"The greatest teacher, failure is." - Yoda
+@'The greatest teacher, failure is.' - Yoda
 
-@"The only impossible journey is the one you never begin." - Tony Robbins
+@'The only impossible journey is the one you never begin.' - Tony Robbins
 
-@"The secret to getting ahead is getting started." - Mark Twain
+@'The secret to getting ahead is getting started.' - Mark Twain
 
-@"Do what you can, with what you have, where you are." - Theodore Roosevelt
+@'Do what you can, with what you have, where you are.' - Theodore Roosevelt
 
-@"Your time is limited, don't waste it living someone else's life." - Steve Jobs
+@'Your time is limited, don't waste it living someone else's life.' - Steve Jobs
 
-@"The best revenge is massive success." - Zig Ziglar
+@'The best revenge is massive success.' - Zig Ziglar
 
-@"I attribute my success to this: I never gave or took an excuse." - Florence Nightingale
+@'I attribute my success to this: I never gave or took an excuse.' - Florence Nightingale
 
-@"The future depends on what you do today." - Mahatma Gandhi
+@'The future depends on what you do today.' - Mahatma Gandhi
 
-@"Don't be afraid to give up the good to go for the great." - John D. Rockefeller
+@'Don't be afraid to give up the good to go for the great.' - John D. Rockefeller
 
-@"The way to get started is to quit talking and begin doing." - Walt Disney
+@'The way to get started is to quit talking and begin doing.' - Walt Disney
 
-@"It is during our darkest moments that we must focus to see the light." - Aristotle
+@'It is during our darkest moments that we must focus to see the light.' - Aristotle
 
-@"If you want to achieve greatness, stop asking for permission." - Anonymous
+@'If you want to achieve greatness, stop asking for permission.' - Anonymous
 
-@"The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt
+@'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt
 
-@"You have power over your mind - not outside events. Realize this, and you will find strength." - Marcus Aurelius
+@'You have power over your mind - not outside events. Realize this, and you will find strength.' - Marcus Aurelius
 
-@"Success is walking from failure to failure with no loss of enthusiasm." - Winston Churchill
+@'Success is walking from failure to failure with no loss of enthusiasm.' - Winston Churchill
 
-@"The only way to have a friend is to be one." - Ralph Waldo Emerson
+@'The only way to have a friend is to be one.' - Ralph Waldo Emerson
 
-@"Success usually comes to those who are too busy to be looking for it." - Henry David Thoreau
+@'Success usually comes to those who are too busy to be looking for it.' - Henry David Thoreau
 
-@"The only person you are destined to become is the person you decide to be." - Ralph Waldo Emerson
+@'The only person you are destined to become is the person you decide to be.' - Ralph Waldo Emerson
 
-@"You become what you believe." - Oprah Winfrey
+@'You become what you believe.' - Oprah Winfrey
 
-@"The best revenge is massive success." - Frank Sinatra
+@'The best revenge is massive success.' - Frank Sinatra
 
-@"You can't use up creativity. The more you use, the more you have." - Maya Angelou
+@'You can't use up creativity. The more you use, the more you have.' - Maya Angelou
 
-@"It always seems impossible until it's done." - Nelson Mandela
+@'It always seems impossible until it's done.' - Nelson Mandela
 
-@"The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks." - Mark Zuckerberg
+@'The biggest risk is not taking any risk. In a world that is changing quickly, the only strategy that is guaranteed to fail is not taking risks.' - Mark Zuckerberg
 
-@"You are never too old to set another goal or to dream a new dream." - C.S. Lewis
+@'You are never too old to set another goal or to dream a new dream.' - C.S. Lewis
 
-@"The two most important days in your life are the day you are born and the day you find out why." - Mark Twain
+@'The two most important days in your life are the day you are born and the day you find out why.' - Mark Twain
 
-@"A journey of a thousand miles begins with a single step." - Lao Tzu
+@'A journey of a thousand miles begins with a single step.' - Lao Tzu
 
-@"The only true wisdom is in knowing you know nothing." - Socrates
+@'The only true wisdom is in knowing you know nothing.' - Socrates
 
-@"The purpose of our lives is to be happy." - Dalai Lama
+@'The purpose of our lives is to be happy.' - Dalai Lama
 
-@"Success is not in what you have, but who you are." - Bo Bennett
+@'Success is not in what you have, but who you are.' - Bo Bennett
 
-@"The only thing worse than being blind is having sight but no vision." - Helen Keller
+@'The only thing worse than being blind is having sight but no vision.' - Helen Keller
 
-@"The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it." - Jordan Belfort
+@'The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.' - Jordan Belfort
 
-@"The biggest adventure you can take is to live the life of your dreams." - Oprah Winfrey
+@'The biggest adventure you can take is to live the life of your dreams.' - Oprah Winfrey
 
-@"The only time you fail is when you fall down and stay down." - Stephen Richards
+@'The only time you fail is when you fall down and stay down.' - Stephen Richards
 
-@"The only place where success comes before work is in the dictionary." - Vidal Sassoon
+@'The only place where success comes before work is in the dictionary.' - Vidal Sassoon
 
-@"You miss 100% of the shots you don't take." - Wayne Gretzky
+@'You miss 100% of the shots you don't take.' - Wayne Gretzky
 
-@"Believe you can and you're halfway there." - Theodore Roosevelt
+@'Believe you can and you're halfway there.' - Theodore Roosevelt
 
-@"Life is 10% what happens to us and 90% how we react to it." - Charles R. Swindoll
+@'Life is 10% what happens to us and 90% how we react to it.' - Charles R. Swindoll
 
-@"Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful." - Albert Schweitzer
+@'Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.' - Albert Schweitzer
 
-@"The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt
+@'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt
 
-@"The best revenge is massive success." - Zig Ziglar
+@'The best revenge is massive success.' - Zig Ziglar
 
-@"If you want to achieve greatness, stop asking for permission." - Anonymous
+@'If you want to achieve greatness, stop asking for permission.' - Anonymous
 
-@"The only way to do great work is to love what you do." - Steve Jobs
+@'The only way to do great work is to love what you do.' - Steve Jobs
 
-@"In three words, I can sum up everything I've learned about life: it goes on." - Robert Frost
+@'In three words, I can sum up everything I've learned about life: it goes on.' - Robert Frost
 
-@"The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+@'The future belongs to those who believe in the beauty of their dreams.' - Eleanor Roosevelt
 
-@"Success is not final, failure is not fatal: it is the courage to continue that counts." - Winston Churchill
+@'Success is not final, failure is not fatal: it is the courage to continue that counts.' - Winston Churchill
 
-@"The best way to predict the future is to create it." - Peter Drucker
+@'The best way to predict the future is to create it.' - Peter Drucker
 
-@"The only thing we have to fear is fear itself." - Franklin D. Roosevelt
+@'The only thing we have to fear is fear itself.' - Franklin D. Roosevelt
 
-@"Life is what happens when you're busy making other plans." - John Lennon
+@'Life is what happens when you're busy making other plans.' - John Lennon
 
-@"The greatest glory in living lies not in never falling, but in rising every time we fall." - Nelson Mandela
+@'The greatest glory in living lies not in never falling, but in rising every time we fall.' - Nelson Mandela
 
-@"In the end, it's not the years in your life that count. It's the life in your years." - Abraham Lincoln
+@'In the end, it's not the years in your life that count. It's the life in your years.' - Abraham Lincoln
 
-@"The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt
+@'The only limit to our realization of tomorrow will be our doubts of today.' - Franklin D. Roosevelt
 
-@"It does not matter how slowly you go as long as you do not stop." - Confucius
+@'It does not matter how slowly you go as long as you do not stop.' - Confucius
 
-@"The secret of getting ahead is getting started." - Mark Twain
+@'The secret of getting ahead is getting started.' - Mark Twain
 
-@"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe." - Albert Einstein
+@'Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.' - Albert Einstein
 
-@"The best revenge is massive success." - Frank Sinatra
+@'The best revenge is massive success.' - Frank Sinatra
 
-@"The greatest wealth is to live content with little." - Plato
+@'The greatest wealth is to live content with little.' - Plato
 
-@"Believe you can and you're halfway there." - Theodore Roosevelt
+@'Believe you can and you're halfway there.' - Theodore Roosevelt
 
-@"The only person you are destined to become is the person you decide to be." - Ralph Waldo Emerson
+@'The only person you are destined to become is the person you decide to be.' - Ralph Waldo Emerson
 
-@"The journey of a thousand miles begins with a single step." - Lao Tzu
+@'The journey of a thousand miles begins with a single step.' - Lao Tzu
 
-@"The harder I work, the luckier I get." - Samuel Goldwyn
+@'The harder I work, the luckier I get.' - Samuel Goldwyn
