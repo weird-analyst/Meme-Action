@@ -61,9 +61,9 @@ jobs:
           
       #Final Action to send reply by combining everything
       - name: Send Reply
-        uses: peter-evans/create-or-update-comment@v1
+        uses: rytswd/respost@v0.1.0
         with:
-          issue-number: ${{ github.event.issue.number }}
+          title: Thank you for your contribution!
           body: |
             ${{ steps.quote.outputs.random_quote }}
             
@@ -71,5 +71,6 @@ jobs:
             Thank you for your contribution!
             
             ![Image](${{ steps.generate_comic_url.outputs.comic_url }})
+            
 
     
