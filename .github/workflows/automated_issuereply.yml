@@ -60,19 +60,11 @@ jobs:
           echo "::set-output name=random_quote::$random_quote"
           
       #Final Action to send reply by combining everything
-      - name: Send Reply
-        uses: rytswd/respost@v0.1.0
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
-          title: Thank you for your contribution!
-          body: |
-            "${{ steps.quote.outputs.random_quote }}
-            
-            Heyy, ${{ steps.issue.outputs.username }}!
-            Thank you for your contribution!
-            
-            ![Image](${{ steps.generate_comic_url.outputs.comic_url }})"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "It's great to have your input on this project."
+          pr-message: "Thank you for contributing to this project, your support is much appreciated."
+          footer: "Stay awesome!"
 
     
