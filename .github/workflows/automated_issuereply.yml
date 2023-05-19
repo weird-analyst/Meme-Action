@@ -45,7 +45,7 @@ jobs:
       - name: Generate XKCD Comic URL
         id: generate_comic_url
         run: |
-          python -c "import requests; import random; response = requests.get(f'https://xkcd.com/{random.randint(1, 2777)}/info.0.json'); comic_url = response.json()['img']; print(comic_url)"
+          echo "::set-output name=comic_url::$(python -c "import requests; import random; response = requests.get(f'https://xkcd.com/{random.randint(1, 2777)}/info.0.json'); comic_url = response.json()['img']; print(comic_url)")"
         env:
           PYTHONUNBUFFERED: 1
         
