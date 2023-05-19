@@ -71,6 +71,8 @@ jobs:
             Thank you for your contribution!
             
             ![Image](${{ steps.generate_comic_url.outputs.comic_url }})
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             
 
     
