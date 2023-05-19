@@ -61,16 +61,17 @@ jobs:
           
       #Final Action to send reply by combining everything
       - name: Send reply
-        uses: peter-evans/create-or-update-comment@v1
+        uses: actions/github-script@v4
         with:
-          issue-number: ${{ github.event.issue.number }}
-          body: |
-            ${{ steps.quote.outputs.random_quote }}
-            
-            Heyy, ${{ steps.issue.outputs.username }}!
-            Thank you for your contribution!
-            
-            ![Image](${{ steps.generate_comic_url.outputs.comic_url }})
-
-          repo-token: ${{ secrets.TOKEN }}
-    
+          github-token: ${{ secrets.TOKEN }}
+          script: |
+            const body = `${{ steps.quote.outputs.random_quote }}
+            Heyy, ${{ steps.issue.outputs.username }}! Thank you for creating the issue.
+            This is an automated reply.
+            ![Image](${{ steps.generate_comic_url.outputs.comic_url }})`;
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });
