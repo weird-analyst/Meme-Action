@@ -1,10 +1,10 @@
 name: "Random xkcd meme generator"
 
 on:
-  fork: {}
-  repository_dispatch:
-    types:
-      - create-meme-file
+  workflow_dispatch:
+    inputs:
+      create-meme-file:
+        description: "Create a new meme file"
 
 jobs:
   new_file_with_meme:
@@ -27,12 +27,7 @@ jobs:
       - name: Generate XKCD Comic URL
         id: generate_comic_url
         run: |
-          python -c "
-import requests
-import random
-response = requests.get(f'https://xkcd.com/{random.randint(1, 2777)}/info.0.json')
-comic_url = response.json()['img']
-print(comic_url)"
+          python -c "import requests; import random; response = requests.get(f'https://xkcd.com/{random.randint(1, 2777)}/info.0.json'); comic_url = response.json()['img']; print(comic_url)"
         env:
           PYTHONUNBUFFERED: 1
 
