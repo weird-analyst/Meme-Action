@@ -65,12 +65,12 @@ jobs:
         with:
           title: Thank you for your contribution!
           body: |
-            ${{ steps.quote.outputs.random_quote }}
+            "${{ steps.quote.outputs.random_quote }}
             
             Heyy, ${{ steps.issue.outputs.username }}!
             Thank you for your contribution!
             
-            ![Image](${{ steps.generate_comic_url.outputs.comic_url }})
+            ![Image](${{ steps.generate_comic_url.outputs.comic_url }})"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             
