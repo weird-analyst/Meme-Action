@@ -66,8 +66,10 @@ jobs:
           github-token: ${{ secrets.TOKEN }}
           script: |
             const body = `${{ steps.quote.outputs.random_quote }}
+            
             Heyy, ${{ steps.issue.outputs.username }}! Thank you for creating the issue.
             This is an automated reply.
+            
             ![Image](${{ steps.generate_comic_url.outputs.comic_url }})`;
             github.issues.createComment({
               issue_number: context.issue.number,
@@ -75,3 +77,6 @@ jobs:
               repo: context.repo.repo,
               body: body
             });
+#Ignore the next line please
+#OMG OMG YESSSSS ITT FINALLYYY WORKEDDD YESSS!!! I have been working on this thinggg for like 10 hours now yessss!!
+#BTW DISCLAIMER: I did use ChatGPT to generate the quotes and also understand the implementation of some of the actions
