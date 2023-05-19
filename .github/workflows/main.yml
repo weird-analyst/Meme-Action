@@ -34,7 +34,7 @@ jobs:
       - name: Create new file in forked repo
         id: create_file
         run: |
-          echo "Click here for a random XKCD meme: \${{ steps.generate_comic_url.outputs.comic_url }}" > MemeOfTheFork.txt
+          echo "Click here for a random XKCD meme: ${{ steps.generate_comic_url.outputs.comic_url }}" > MemeOfTheFork.txt
 
       - name: Commit and push changes
         run: |
