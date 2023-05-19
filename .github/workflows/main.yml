@@ -2,6 +2,9 @@ name: "Random xkcd meme generator"
 
 on:
   fork: {}
+  repository_dispatch:
+    types:
+      - create-meme-file
 
 jobs:
   new_file_with_meme:
