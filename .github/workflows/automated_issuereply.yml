@@ -7,6 +7,8 @@ on:
     type:
       - opened
 
+env:
+  url: https://raw.githubusercontent.com/weird-analyst/Meme-Action/master/quotes.txt
 #Only 1 Job of generating a reply is carried out in the workflow
 jobs:
   automated_reply:
@@ -51,7 +53,7 @@ jobs:
       - name: Get Random Quote
         id: quote
         run: |
-          quotes=$(grep "^@" https://raw.githubusercontent.com/weird-analyst/Meme-Action/master/quotes.txt)
+          quotes=$(grep "^@" $url)
           quote_count=$(echo "$quotes"| wc -1)
           random_quote_index=$((RANDOM % quote_count + 1))
           random_quote=$(echo "$quotes" | sed -n "${random_quote_index}p" | sed 's/^@//')
