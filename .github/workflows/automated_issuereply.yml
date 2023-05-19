@@ -1,0 +1,73 @@
+#Name of the workflow
+name: "Create an Automated Reply to a Raised Issue, including a random xkcd meme, and a random quote"
+
+#The workflow is triggered whenever a new issue is opened
+on:
+  issues:
+    type:
+      - opened
+
+#Only 1 Job of generating a reply is carried out in the workflow
+jobs:
+  automated_reply:
+    runs-on: ubuntu-latest
+    steps:
+    #Steps/Actions carried out in this job:
+      #Access the repo,
+      #Access the details of the issue to get the username of the person raising the issue,
+      #Setup Python and run random variable code, to get a random int between 1 - 2777 (dont ask how i got that number)
+      #Call the xkcd api with that random int to get a json object
+      #Get the url from the json object
+      #Store the url to the image in comic_url
+      #Get a random quote from a file and store it in a variable 
+      #Print the required message
+      
+      #Accessing Repo using inbuilt action to make changes
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+        
+      #Getting Issue details to get username
+      - name: Get Username
+        id: issue
+        run: echo "::set-output name=username::${{ github.event.issue.user.login }}"
+        
+      #Getting Random XKCD Image
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      - name: Generate XKCD Comic URL
+        id: generate_comic_url
+        run: |
+          python -c "import requests; import random; response = requests.get(f'https://xkcd.com/{random.randint(1, 2777)}/info.0.json'); comic_url = response.json()['img']; print(comic_url)"
+        env:
+          PYTHONUNBUFFERED: 1
+        
+      #Getting Random Quote
+      - name: Get Random Quote
+        id: quote
+        run: |
+          quotes=$(grep "^@" https://raw.githubusercontent.com/weird-analyst/Meme-Action/master/quotes.txt)
+          quote_count=$(echo "$quotes"| wc -1)
+          random_quote_index=$((RANDOM % quote_count + 1))
+          random_quote=$(echo "$quotes" | sed -n "${random_quote_index}p" | sed 's/^@//')
+          echo "::set-output name=random_quote::$random_quote"
+          
+      #Final Action to send reply by combining everything
+      - name: Send Reply
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            ${{ steps.quote.outputs.random_quote }}
+            
+            Heyy, ${{ steps.issue.outputs.username }}!
+            Thank you for your contribution!
+            
+            ![Image](${{ steps.generate_comic_url.outputs.comic_url }})
+
+    
